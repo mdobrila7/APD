@@ -1,0 +1,32 @@
+		Exercitiul 1
+
+	Pentru a se putea analiza scalabilitatea implementarii se comenteaza 
+linia 137 din Main si anume qsort(v, N, sizeof(int), cmp).
+	Daca se doreste rularea implemenatrii secventiale se comenteaza liniile
+143-166.
+	Timpii obtinuti: 
+	1) N = 100, P = 4
+		OETS: 0m0,002s
+		QSORT: 0m0,003s
+	2)N = 256, P = 4
+		OETS: 0m0,003s
+		QSORT: 0m0,015s
+	3) N = 512, P = 4
+		OETS: 0m0,005s
+		QSORT: 0m0,020s
+
+
+		Exercitiul 3
+
+	Daca se doreste rularea implementarii secventiale se comenteaza liniile
+177-185.
+	Timpii obtinuti:
+	1) N = 100, P = 4
+		SHEAR: 0m0,039s
+		QSORT: 0m0,065s
+	2) N = 256, P = 4
+		SHEAR: 0m0,487s
+		QSORT: 0m0,550s
+	3) N = 512, P = 4
+		SHEAR: 0m2,262s
+		QSORT: 0m2,630s
